@@ -1,8 +1,14 @@
 body {
   margin: 0em;
+  
   font-family: "Noto Sans", sans-serif;
+  
 }
-
+NAV{
+   margin: 0em;
+  color: #fff;
+   background: #000;
+}
 .cover {
   height: 400px;
   background-image: url(https://cdn.glitch.com/2bb13202-58f3-49f7-a752-4f37b446e158%2Frsz_3arvid-skywalker-zvvnjonv3ho-unsplash.jpg?v=1625219203636);
