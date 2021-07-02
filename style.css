@@ -5,7 +5,7 @@ body {
 
 .cover {
   height: 400px;
-  background-image: url(https://cdn.glitch.com/2bb13202-58f3-49f7-a752-4f37b446e158%2Frsz_igor-oliyarnik-iilh12-bvlu-unsplash.jpg);
+  background-image: url(https://cdn.glitch.com/2bb13202-58f3-49f7-a752-4f37b446e158%2Frsz_3arvid-skywalker-zvvnjonv3ho-unsplash.jpg?v=1625219203636);
   color: white;
   background-size: cover;
   background-position: center;
@@ -33,11 +33,9 @@ body {
 .card-text1 {
   min-height: 15rem;
 }
-footer{
-  
-  background:#000;
-  margin:0em;
-  Color:#fff;
-  text-align:center;
- 
+footer {
+  background: #000;
+  margin: 0em;
+  color: #fff;
+  text-align: center;
 }
