@@ -1,11 +1,10 @@
 body {
   margin: 0em;
-  
+
   font-family: "Noto Sans", sans-serif;
-  
 }
-NAV{
-   margin: 0em;
+nav {
+  margin: 0em;
 }
 .cover {
   height: 400px;
