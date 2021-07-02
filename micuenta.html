@@ -46,23 +46,30 @@
     <section>
       <div class="container mt-5 mb-3">
         <div class="row">
-          
-
           <!-- Force next columns to break to new line -->
           <div class="w-100"></div>
 
-          <div class="">
+          <div class="sm-3">
+            <div class="row g-3 align-items-center">
+               <div class="col-auto">
+              <label for="InputEmail1" class="col-form-label"
+                >Correo Electronico</label
+              > </div>
+              <input
+                type="email"
+                class="form-control"
+                id="InputEmail1"
+                aria-describedby="emailHelp"
+              />
              
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
-          <div class="col-6 col-sm-3">
+            </div>
+          </div>
+          
+          <div class="m-3">
             <div class="row g-3 align-items-center">
               <div class="col-auto">
                 <label for="inputPassword6" class="col-form-label"
-                  >Contraseña</label
-                >
+                  >Contraseña</label>
               </div>
               <div class="col-auto">
                 <input
@@ -72,14 +79,14 @@
                   aria-describedby="passwordHelpInline"
                 />
               </div>
-              <div class="col-auto">
-                <span id="passwordHelpInline" class="form-text"> </span>
-              </div>
+              
             </div>
           </div>
+          <div class="m-3">
+          <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
         </div>
       </div>
-
     </section>
     <section>
       <div class="container mt-5 mb-5">
@@ -106,19 +113,25 @@
   </body>
 </html>
 
-
 <form>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <input
+      type="email"
+      class="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+    />
+    <div id="emailHelp" class="form-text">
+      We'll never share your email with anyone else.
+    </div>
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+    <input type="password" class="form-control" id="exampleInputPassword1" />
   </div>
   <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
