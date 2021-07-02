@@ -1,32 +1,35 @@
 body {
   margin: 0em;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
+
 .cover {
   height: 400px;
   background-image: url(https://cdn.glitch.com/2bb13202-58f3-49f7-a752-4f37b446e158%2Frsz_igor-oliyarnik-iilh12-bvlu-unsplash.jpg);
   color: white;
   background-size: cover;
   background-position: center;
-  background-color:rgba(0,0,0,0.6);
-  background-blend-mode:darken;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
 }
-.cover-small{
-  height:300px;
-  background-blend-mode:normal;
+.cover-small {
+  height: 300px;
+  background-blend-mode: normal;
 }
-.card{
-  border:0!important;
-  box-shadow:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
-  
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
-.card-title{
-   min-height:3rem;
-  
+.card-title {
+  min-height: 3rem;
 }
-.card-text{
-  min-height:15rem;
+.card-title1 {
+  min-height: 3rem;
 }
-.card-text1{
-  min-height:10rem;
+.card-text {
+  min-height: 15rem;
+}
+.card-text1 {
+  min-height: 15rem;
 }
