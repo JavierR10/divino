@@ -24,6 +24,6 @@ body {
    min-height:3rem;
   
 }
-.card-link{
-  min-height:1rem;
+.card-text{
+  min-height:15rem;
 }
