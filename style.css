@@ -42,3 +42,9 @@ footer {
   color: #fff;
   text-align: center;
 }
+.stripe-container{
+  display:flex;
+}
+.stripe-container .card{
+  width
+}
