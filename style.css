@@ -42,9 +42,16 @@ footer {
   color: #fff;
   text-align: center;
 }
+.product-stripe{
+  overflow-x:scroll;
+  padding-top:1rem;
+  padding-botton:1rem;
+}
 .stripe-container{
   display:flex;
 }
 .stripe-container .card{
-  width
+  width:300px;
+  flex-shrink:0;
+  margin-right:1rem;
 }
