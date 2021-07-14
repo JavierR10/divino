@@ -84,7 +84,7 @@ input, textarea {
     border:2px solid #F7F7F7;
     padding:10px;
     margin-top:5px;
-    font-size:10px;
+    font-size:14px;
     color:#040202;
 }
  
@@ -92,10 +92,3 @@ textarea {
     height:150px;
 }
  
-#submit {
-    width:85px;
-    height:35px;
-    border:none;
-    margin-top:20px;
-    cursor:pointer;
-}
